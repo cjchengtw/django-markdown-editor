@@ -70,7 +70,6 @@ version = "2.9"
 [[package]]
 category = "main"
 description = "Read metadata from Python packages"
-marker = "python_version < \"3.8\""
 name = "importlib-metadata"
 optional = false
 python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
@@ -90,11 +89,6 @@ name = "markdown"
 optional = false
 python-versions = ">=3.5"
 version = "3.2.2"
-
-[package.dependencies]
-[package.dependencies.importlib-metadata]
-python = "<3.8"
-version = "*"
 
 [package.extras]
 testing = ["coverage", "pyyaml"]
@@ -162,7 +156,6 @@ socks = ["PySocks (>=1.5.6,<1.5.7 || >1.5.7,<2.0)"]
 [[package]]
 category = "main"
 description = "Backport of pathlib-compatible object wrapper for zip files"
-marker = "python_version < \"3.8\""
 name = "zipp"
 optional = false
 python-versions = ">=3.6"
@@ -173,8 +166,8 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "cc7f691c8bb4b1677fd1d806cdbddca27730a43b0e2dedde3909e70bf29d8059"
-python-versions = "3.7.6"
+content-hash = "4d43b0073b9666c602ea3600e7fb5eb2316bed43f5f0f56800386638f6bae042"
+python-versions = "3.8.1"
 
 [metadata.files]
 asgiref = [
